@@ -1,0 +1,26 @@
+a:link {
+    text-decoration: none;
+/*     color: #777 */
+}
+a:visited {
+    text-decoration: underline;
+/*     color: #555 */
+}
+
+
+
+.header a:link, div.header a:visited {
+    color: #fff   
+}
+.header a:hover {
+    background-color: #1565c0
+}
+
+
+
+.intro a:link, .intro a:visited {
+    color: #444
+}
+.intro a:hover {
+    color: #000
+}
