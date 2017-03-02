@@ -13,68 +13,69 @@ body {
 
 #navigation, #topBar {
     height: 200px;
-    box-shadow: 0 0px 10px;
+    box-shadow: 0 5px 10px #555;
     background-color: #2196f3
 }
 #navigation a, #topBar a {
     display: inline-block;
     position: relative;
-    top: 80px;
-    left: 280px;
-    padding: 20px;
-    width: 200px;
+    top: 30%;
+    left: 2.5%;
+    margin: 0 3%;
+    padding: 2.5%;
+    width: 20%;
     text-align: center;
-    font-size: 40px
+    font-size: 2.8em
 }
-
-
-/* #topBar {
-    position: fixed;
-    top: 0;
-    z-index: 0;
-    width: 100%;
-    height: 62px
-}
-#topBar a {
-    top: 0;
-    padding: 5px 20px
-} */
 
 
 
 #content {
-    margin-top: 100px;
-    min-height: 700px
+    margin: 3%
 }
 .intro {
-    margin: 20px 160px;
-    width: 1000px;
-    height: 120px;
+    float: left;
+    margin: 0 1.5% 2.5%;
+    width: 30%;
+    min-height: 900px;
+    box-shadow: -5px 5px 10px #555;
     text-align: center;
     font-size: 2em;
 }
-#intro1 {
+#introM {
     background-color: #ff9800
 }
-#intro2 {
-    background-color: #009688
+#introW {
+    background-color: #aeea00
 }
-#intro3 {
+#introS {
     background-color: #00bcd4
 }
-#intro4 {
-    background-color: #ffc107
+.intro a, .intro p {
+    display: inline-block;
+    float: left;
+    clear: both
 }
+.intro .information {
+    margin: 15%
+}
+.intro .description {
+    margin-left: 5%
+}
+.intro a {
+    margin: 5% 0 2% 25%
+}
+
 
 
 
 #bottomBar {
-    height: 32px;
+    clear: both;
     background-color: #333
 }
 #bottomBar p, a {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 0.6% 1.5%;
     color: #aaa
 }
 #bottomBar #sitemap {
